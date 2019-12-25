@@ -1,0 +1,15 @@
+# Web Crawler in JAVA 
+
+This is a simple a `web crawler`.
+
+The current implementation is `SimpleUrlCrawler` what it does is
+
+ It start crawling the given root url and discovers all the interconnected url in the page and nested pages.
+ 
+ What it does basically it enters the given root discovers all the neighbouring http|https| urls and starts
+ crawling the neighbours so on and so forth.
+ 
+ Usage:
+ 
+`WebCrawler webCrawler = new SimpleUrlCrawler();
+ webCrawler.startCrawling("the root url you want to start crawling");`
